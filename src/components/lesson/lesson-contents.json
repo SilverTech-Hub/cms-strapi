@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_lesson_lesson_contents",
+  "info": {
+    "displayName": "LessonContents"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "string"
+    }
+  }
+}

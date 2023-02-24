@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_category_category_courses",
+  "info": {
+    "displayName": "CategoryCourses",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

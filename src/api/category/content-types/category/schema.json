@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "singularName": "category",
+    "pluralName": "categories",
+    "displayName": "Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "short_title": {
+      "type": "string"
+    },
+    "category_name": {
+      "type": "string",
+      "required": true
+    },
+    "order": {
+      "type": "integer",
+      "required": true
+    },
+    "level": {
+      "type": "integer",
+      "required": true
+    },
+    "is_top_course": {
+      "type": "boolean"
+    },
+    "not_show_in_menu": {
+      "type": "boolean"
+    },
+    "heading_title": {
+      "type": "string"
+    },
+    "background_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "background_color": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.colors",
+      "required": true
+    },
+    "about_course": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category.category-courses",
+      "required": true
+    }
+  }
+}
